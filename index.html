@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<!-- Acesta este head-ul -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Ce este nou in ES6? | Prezentare web">
+		<meta name="author" content="Alexandru Puiu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Noutati Informatice</title>
+		<link rel="stylesheet" href="style.css">
+		<!-- pentru iconita de la meniu -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- font gothic de pe google -->
+		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	</head>
+
+	<!-- Aici incepe magia -->
+	<body>
+		<main>
+			<header id = "header">
+				<span onclick="showMenu()" class="fa fa-bars showMenu"></span>
+				<div class="titlu-header">Noutati Informatice</div>
+			</header>
+			<div class = "menu" id = "menu">
+				<div class="menu-links">
+					<a href="javascript:void(0)" onclick="closeMenu()" class="closeMenu">&times;</a>
+					<a href="#home", onclick="closeMenu()">Pagina de pornire</a>
+					<a href="#ce-este-js", onclick="closeMenu()">Ce este JavaScript?</a>
+					<a href="#istoria-limbajului", onclick="closeMenu()">Istoria limbajului</a>
+					<a href="#es5-es6", onclick="closeMenu()">ES5 vs ES6</a>
+				</div>
+			</div>
+			<div class = "pagina-de-pornire" id="home">
+				<h1>JavaScript</h1>
+			</div>
+			<div id= "ce-este-js">
+				<h1>Ce este JavaScript?</h1>
+				<div class = "definitie">
+					<p id="animatie-definitie" class = "ce-este-js">JavaScript este un limbaj de programare puternic, rapid si flexibil care îți permite să implementezi lucruri complexe pe paginile web — de fiecare dată când o pagină web face mai mult decât să afișeze informații <u>statice</u> pentru ca tu să te uiți — afișând actualizări de conținut în timp util sau hărți interactive, grafice animate 2D/3D, video jukebox, etc. — probabil că JavaScript <strong>este implicat</strong>.</p>
+				</div>
+			</div>
+
+			<div id = "istoria-limbajului">
+				<h1 class = "definitie">Istorie</h1>
+				<p id = "schema">S-ar putea să fi văzut termenul "ES6" sau "Javascript ES6" și sa va întrebati ce înseamnă de fapt. Sa facem o mica istorie. JavaScript a fost introdus în anul 1995 de compania <u>Netscape Communications</u> ca limbaj de scripting pentru web designeri și programatori pentru a interacționa cu paginile web. În anul următor, Netscape a trimis JavaScript la o organizație de dezvoltare a standardelor numită <u>Ecma International</u> pentru a crea standarde pentru un limbaj de scripting (un tip de limbaj de programare). În 1997, Ecma International a lansat ECMA-262 care stabilește standarde pentru prima versiune a limbajului de scripting numit <b>ECMAScript</b>, prescurtat <b>ES</b>. <br>De asemenea, s-ar putea să vedeți <i>ES2015</i> în loc de <i>ES6</i>, dar ambele terminologii se referă la a sasea ediție a ECMAScript, care a fost lansată în 2015.</br></p>
+				<img src="image/javascript.gif" id = "gif" class = "gif">
+			</div>
+
+			<div id = "es5-es6">
+				<h1 class = "definitie">Diferentele dintre ES5 si ES6</h1>
+				<p>Chiar daca exista si ES7 sau ES8, <b>ES6</b> este cea mai mare actualizare făcută de ECMAScript de la prima ediție lansată în 1997! Unii dezvoltatori supranumesc ES6 ca "<u>JavaScript modern"</u> din cauza tuturor adăugărilor majore. Au fost adăugate atâtea caracteristici extraordinare pentru a ajuta dezvoltatorii JavaScript care includ:</p>
+				<ul>
+					<li>noi cuvinte cheie precum: <mark>let</mark> si <mark>const</mark> pentru a declara variabile,</li>
+					<li>noua funcție de sintaxă utilizând funcțiile cu săgeți (arrow functions),</li>
+					<li>crearea de clase,</li>
+					<li>parametrii cu valori implicite,</li>
+					<li>si multe altele.</li>
+				</ul>
+				<p>Browserele suporta acum majoritatea caracteristicilor ES6 care permit dezvoltatorilor să profite de aceste noi adăugari. ES6 permite programatorilor <u>să economisească timp și să scrie coduri mai concise</u>. Luați, de exemplu, sintaxa ES5 pentru expresii de funcții:</p>
+				<pre>
+var greeting = function() {
+	console.log('Hello World!');  
+};
+				</pre>
+				<p class = "margin-top">Cu funcțiile de săgeată din ES6, putem transforma expresia de mai sus în:</p>
+				<pre>const greeting = () => console.log('Hello World');</pre>
+				<p style="opacity: 0; padding: 1rem">sss</p>
+			</div>
+			<footer>
+				<div class = "echipa">
+					<div class = "creator">
+						<h2>Creator:</h2>
+						<p>Alexandru Puiu</p>
+						<a href="https://www.facebook.com/a11exandru">
+							<span class = "fa fa-facebook-official"></span>
+						</a>
+						<a href="https://github.com/a11exandru">
+							<span class = "fa fa-github"></span>
+						</a>
+						<a href="https://www.linkedin.com/in/a11exandru/">
+							<span class = "fa fa-linkedin"></span>
+						</a>
+					</div>
+					<div class = "profesor">
+						<h2>Profesor:</h2>
+						<p>Cosnita Emilia-Felicia</p>
+						<a href="https://www.facebook.com/otilia.cosnita">
+							<span class = "fa fa-facebook-official"></span>
+						</a>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
+
+<script src="app.js"></script>
+</html>
