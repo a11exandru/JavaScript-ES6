@@ -6,6 +6,7 @@
 
 html {
 	font-family: 'Didact Gothic', sans-serif;
+	scroll-behavior: smooth;
 }
 
 html, body {
