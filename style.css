@@ -355,6 +355,7 @@ footer .creator{
 	border-radius: 50%;
 	transition: 0.45s;
 	opacity: 0;
+	pointer-events: none;
 }
 
 

@@ -10,7 +10,7 @@ function closeMenu() {
 	menu.style.width = "0px";
 }
 
-// Acest cod face sa apara definitia cand scrollam 
+// Acest cod face sa apara definitia cand scrollam
 
 window.addEventListener("scroll", () => {
 	let header = document.querySelector('#header');
@@ -28,8 +28,10 @@ window.addEventListener("scroll", () => {
 
 	if(window.scrollY < 260) {
 		topArrow.style.opacity = '0';
+		topArrow.style.pointerEvents = "none";
 	} else {
 		topArrow.style.opacity = '1';
+		topArrow.style.pointerEvents = "all";
 	}
 
 	if(window.scrollY > 490) {
