@@ -21,7 +21,7 @@ mark {
 }
 
 pre {
-	overflow-x: hidden;
+	overflow-x: auto;
 	box-shadow: 0px 0px 8px 1.1px lightgray;
 	padding: 1rem;
 	margin: 0 auto;
