@@ -133,25 +133,25 @@ header {
 	transform: translate(-50%, -40%);
 }
 
-#ce-este-js {
+#ce-este-cpp {
 	background-color: purple;
 	height: 100%;
 	color: white;
 	border-bottom-right-radius: 20%;
 }
 
-#ce-este-js h1,
+#ce-este-cpp h1,
 #istoria-limbajului h1,
-#es5-es6 h1 {
+#clase h1 {
 	width: 100%;
 	padding: 3rem 0;
 	text-align: center;
 	color: white;
 }
 
-#ce-este-js p,
+#ce-este-cpp p,
 #istoria-limbajului p,
-#es5-es6 p {
+#clase p {
 	padding: 0 1.5rem 3rem;
 	text-align: justify;
 	font-size: 1.1rem;
@@ -163,7 +163,7 @@ header {
 	overflow: hidden;
 }
 
-.ce-este-js {
+.ce-este-cpp {
 	position: relative;
 }
 
@@ -195,12 +195,12 @@ header {
 	display: inherit;
 }
 
-#es5-es6 {
+#clase {
 	background-color: #8d1919;
 	/*border-top-right-radius: 20%;*/
 }
 
-#es5-es6 ul {
+#clase ul {
 	text-align: justify;
 	margin: 0 5rem;
 	color: white;
