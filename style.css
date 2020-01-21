@@ -22,20 +22,20 @@ mark {
 
 pre {
 	overflow-x: auto;
-	box-shadow: 0px 0px 8px 1.1px lightgray;
+	box-shadow: 0px 0px 8px 1.1px black;
 	padding: 1rem;
 	margin: 0 auto;
 	max-width: 65%;
 	text-align: center;
-	background-color: #201e2f;
-	color: white;
+	background-color: #edf5e1;
+	color: #000;
 	border-radius: 0.3rem;
 }
 
 /*Artificii*/
 
 main {
-	background-color: red;
+	background-color: #5cdb95;
 }
 
 body {
@@ -49,7 +49,7 @@ header {
 	position: fixed;
 	right: 0;
 	left: 0;
-	background-color: #292E49;
+	background-color: #05386b;
 	color: white;
 	display: flex;
 	justify-content: space-between;
@@ -115,7 +115,7 @@ header {
 
 .pagina-de-pornire {
 	/*background: repeating-linear-gradient(135deg, #536976, #292E49);*/
-	background: #292E49;
+	background: #05386b;
 	width: 100%;
 	height: 100vh;
 	padding-top: 3rem;
@@ -134,7 +134,7 @@ header {
 }
 
 #ce-este-cpp {
-	background-color: purple;
+	background-color: #379683;
 	height: 100%;
 	color: white;
 	border-bottom-right-radius: 20%;
@@ -172,11 +172,11 @@ header {
 }
 
 #istoria-limbajului {
-	background-color: red;
+	background-color: #5cdb95;
 }
 
 #istoria-limbajului p {
-	color: red;
+	color: #5cdb95;
 	transition: 2s;
 }
 
@@ -196,7 +196,7 @@ header {
 }
 
 #clase {
-	background-color: #8d1919;
+	background-color: #8ee4af;
 	/*border-top-right-radius: 20%;*/
 }
 
@@ -302,7 +302,7 @@ footer .echipa {
 	header {
 		position: absolute;
 		top: 0;
-		background-color: #292E49;
+		background-color: #05386b;
 	}
 
 	.closeMenu {
