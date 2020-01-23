@@ -3,10 +3,10 @@
 	<!-- Acesta este head-ul -->
 	<head>
 		<meta charset="UTF-8">
-		<meta name="description" content="Ce este nou in ES6? | Prezentare web">
-		<meta name="author" content="Alexandru Puiu">
+		<meta name="description" content="Ce este C++ | Prezentare web">
+		<meta name="author" content="Alexandru Puiu,Nechita Silviu Morosanu Iustin">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>JavaScript ES6</title>
+		<title>C++</title>
 		<link rel="stylesheet" href="style.css">
 		<!-- pentru iconita de la meniu -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,58 +21,87 @@
 		<main>
 			<header id = "header">
 				<span onclick="showMenu()" class="fa fa-bars showMenu"></span>
-				<div class="titlu-header">JavaScript ES6</div>
+				<div class="titlu-header">C++</div>
 			</header>
 			<div class = "menu" id = "menu">
 				<div class="menu-links">
 					<a href="javascript:void(0)" onclick="closeMenu()" class="closeMenu">&times;</a>
 					<a href="#home", onclick="closeMenu()">Pagina de pornire</a>
-					<a href="#ce-este-js", onclick="closeMenu()">Ce este JavaScript?</a>
+					<a href="#ce-este-cpp", onclick="closeMenu()">Ce este C++?</a>
 					<a href="#istoria-limbajului", onclick="closeMenu()">Istoria limbajului</a>
 					<a href="#es5-es6", onclick="closeMenu()">ES5 vs ES6</a>
 					<a href="saysomething.php" id="saysomething">Say something</a>
 				</div>
 			</div>
 			<div class = "pagina-de-pornire" id="home">
-				<h1>JavaScript</h1>
+				<h1>C++</h1>
 			</div>
-			<div id= "ce-este-js">
-				<h1>Ce este JavaScript?</h1>
+			<div id= "ce-este-cpp">
+				<h1>Ce este C++?</h1>
 				<div class = "definitie">
-					<p id="animatie-definitie" class = "ce-este-js">JavaScript este un limbaj de programare puternic, rapid si flexibil care îți permite să implementezi lucruri complexe pe paginile web — de fiecare dată când o pagină web face mai mult decât să afișeze informații <u>statice</u> pentru ca tu să te uiți — afișând actualizări de conținut în timp util sau hărți interactive, grafice animate 2D/3D, video jukebox, etc. — probabil că JavaScript <strong>este implicat</strong>.</p>
+					<p id="animatie-definitie" class = "ce-este-js" style="position: relative"> <strong>C++</strong> este un limbaj de programare general, compilat. Este un  limbaj multi-paradigmă, cu verificarea statică a tipului variabilelor ce suportă programare procedurală, abstractizare a datelor, programare orientată pe obiecte. </p>
 				</div>
 			</div>
 
 			<div id = "istoria-limbajului">
 				<h1 class = "definitie">Istorie</h1>
-				<p id = "schema">S-ar putea să fi văzut termenul "ES6" sau "Javascript ES6" și sa va întrebati ce înseamnă de fapt. Sa facem o mica istorie. JavaScript a fost introdus în anul 1995 de compania <u>Netscape Communications</u> ca limbaj de scripting pentru web designeri și programatori pentru a interacționa cu paginile web. În anul următor, Netscape a trimis JavaScript la o organizație de dezvoltare a standardelor numită <u>Ecma International</u> pentru a crea standarde pentru un limbaj de scripting (un tip de limbaj de programare). În 1997, Ecma International a lansat ECMA-262 care stabilește standarde pentru prima versiune a limbajului de scripting numit <b>ECMAScript</b>, prescurtat <b>ES</b>. <br>De asemenea, s-ar putea să vedeți <i>ES2015</i> în loc de <i>ES6</i>, dar ambele terminologii se referă la a sasea ediție a ECMAScript, care a fost lansată în 2015.</br></p>
-				<img src="image/javascript.gif" id = "gif" class = "gif">
+				<p id = "schema">Stroustrup a început să lucreze la C cu clase în 1979. Ideea crearii unui nou limbaj a venit din experienta de programare pentru pregatirea tezei sale de doctorat. Stroustrup a descoperit ca Simula (program din anii '60) avea facilitati foarte utile pentru proiecte mari, însa era prea lent, în timp ce BCPL era rapid, însa nu era de nivel înalt si era nepotrivit pentru proiecte mari. Cand a început să lucreze pentru Bell Labs, avea sarcina de a analiza nucleul UNIX referitor la calcul distribuit. Amintindu-si de experiența sa din perioada lucrsrii de doctorat, Stroustrup a început ss îmbunstățească C cu facilități asemănătoare Simula. C a fost ales deoarece era rapid și portabil. La început facilitățile adaugate C-ului au fost clase, clase derivate, verificare a tipului, inline și argumente cu valori implicite.</p>
+				<img src="image/cpplogo.gif" id = "gif" class = "gif">
 			</div>
 
-			<div id = "es5-es6">
-				<h1 class = "definitie">Diferentele dintre ES5 si ES6</h1>
-				<p>Chiar daca exista si ES7 sau ES8, <b>ES6</b> este cea mai mare actualizare făcută de ECMAScript de la prima ediție lansată în 1997! Unii dezvoltatori supranumesc ES6 ca "<u>JavaScript modern"</u> din cauza tuturor adăugărilor majore. Au fost adăugate atâtea caracteristici extraordinare pentru a ajuta dezvoltatorii JavaScript care includ:</p>
+			<div id = "clase">
+				<h1 class = "definitie">Diferentele dintre C si C++</h1>
+				<p>Multa lume care vrea sa inceapa programarea nu cunoaste diferenta dintre limbajul C si limbajul C++, de accea va vom expune cateva caracteristici ale fiecaruia:<br>– C++ este un limbaj mai modern si suporta programare pe obiecte. Este ca un punct de start pentru mai toate limbajele de programare moderne. A inspirat dezvoltarea Java si are si urmasi, vezi C#.</br><br>– C este un limbaj de nivel mediu, mai aproape de low-level, care este folosit pentru a construi cod mai rapid si mai eficient. Kernel-ul Linux este scris intr-o proportie foarte mare in limbajul C, de exemplu.</br></p>
+					<p>Unde ar trebui sa folositi C:</p>
 				<ul>
-					<li>noi cuvinte cheie precum: <mark>let</mark> si <mark>const</mark> pentru a declara variabile,</li>
-					<li>noua funcție de sintaxă utilizând funcțiile cu săgeți (arrow functions),</li>
-					<li>crearea de clase,</li>
-					<li>parametrii cu valori implicite,</li>
-					<li>si multe altele.</li>
+					<li>Implementari academice de algoritmi;</li>
+					<li>Servere de toate genurile;</li>
+					<li>Programare de sistem;</li>
+					<li>Compilatoare;</li>
+					<li>Masini virtuale;</li>
+					<li>Drivere;</li>
+					<li>Aplicatii real-time;</li>
 				</ul>
-				<p>Browserele suporta acum majoritatea caracteristicilor ES6 care permit dezvoltatorilor să profite de aceste noi adăugari. ES6 permite programatorilor <u>să economisească timp și să scrie coduri mai concise</u>. Luați, de exemplu, sintaxa ES5 pentru expresii de funcții:</p>
-				<pre>
-var greeting = function() {
-	console.log('Hello World!');
-};
-				</pre>
-				<p class = "margin-top">Cu funcțiile de săgeată din ES6, putem transforma expresia de mai sus în:</p>
-				<pre>const greeting = () => console.log('Hello World');</pre>
-				<p style="opacity: 0; padding: 1rem">sss</p>
+				<p>Unde ar trebui sa folositi C++:</p>
+				<ul>
+					<li>Desktop;</li>
+					<li>Jocuri;</li>
+					<li>+ orice altceva iti doresti;</li>
+
+				</ul>
+				<p>Iata si cateva exemple de porgamem in c++.</p>
+				<pre style="text-align: left;">
+#include iostream
+	using namespace std;
+	int main() {
+		cout << "Hello World" <<  endl;
+		return 0;
+	}
+};</pre>
+				 <p class = "margin-top">Acest program afiseaza textul "Hello World"</p> 
+				<pre style="text-align: left;">
+#include iostream
+using namespace std;
+int main() {
+	int a, b, r;
+	cin >> a;
+	cin >> b;
+	r = a % b;
+	while(r) {
+		a = b;
+		b = r;
+		r = a % b;
+	}
+
+	cout << b << endl;
+	return 0;
+}</pre>
+				<p style=" padding: 1rem">Algoritm pentru aflarea celui mai mare divizor comun</p>
 			</div>
 			<footer>
 				<div class = "echipa">
 					<div class = "creator">
-						<h2>Creator:</h2>
+						<h2>Creators:</h2>
 						<p>Alexandru Puiu</p>
 						<a href="https://www.facebook.com/a11exandru">
 							<span class = "fa fa-facebook-official"></span>
@@ -82,6 +111,24 @@ var greeting = function() {
 						</a>
 						<a href="https://www.linkedin.com/in/a11exandru/">
 							<span class = "fa fa-linkedin"></span>
+						</a>
+						<p>Iustin Morosanu </p>
+						<a href="https://www.facebook.com/iustin.morosanu">
+							<span class = "fa fa-facebook-official"></span>
+						</a>
+						<a href="https://github.com/IustinM">
+							<span class = "fa fa-github"></span>
+						</a>
+						<p>Silviu Nechita</p>
+						<a href="https://www.facebook.com/nechita.silviu.7">
+							<span class = "fa fa-facebook-official"></span>
+						</a>
+						<a href="https://github.com/silviu90">
+							<span class = "fa fa-github"></span>
+						</a>
+						<p>Alina Duca</p>
+						<a href="https://www.facebook.com/duca.alina2002">
+							<span class = "fa fa-facebook-official"></span>
 						</a>
 					</div>
 					<div class = "profesor">
@@ -99,6 +146,5 @@ var greeting = function() {
 			</a>
 		</main>
 	</body>
-
-<script src="app.js"></script>
 </html>
+<script src="app.js"></script>

@@ -22,25 +22,26 @@ mark {
 
 pre {
 	overflow-x: auto;
-	box-shadow: 0px 0px 8px 1.1px lightgray;
+	box-shadow: 0px 0px 8px 1.1px black;
 	padding: 1rem;
 	margin: 0 auto;
 	max-width: 65%;
 	text-align: center;
-	background-color: #201e2f;
-	color: white;
+	background-color:  #f2f2f2;
+	color: #000;
 	border-radius: 0.3rem;
 }
 
 /*Artificii*/
 
 main {
-	background-color: red;
+	background-color: #111;
 }
-
+/*
 body {
 	background-color: black;
 }
+*/
 
 /*Facem header-ul frumos*/
 
@@ -49,8 +50,8 @@ header {
 	position: fixed;
 	right: 0;
 	left: 0;
-	background-color: #292E49;
-	color: white;
+	background-color: transparent;
+	color: #818181;
 	display: flex;
 	justify-content: space-between;
 	padding: 0.6rem 1rem;
@@ -115,7 +116,7 @@ header {
 
 .pagina-de-pornire {
 	/*background: repeating-linear-gradient(135deg, #536976, #292E49);*/
-	background: #292E49;
+	background-image: url("https://hackernoon.com/hn-images/1*mY9s68LiW9UN4VkV_VnKTA.jpeg");
 	width: 100%;
 	height: 100vh;
 	padding-top: 3rem;
@@ -124,34 +125,33 @@ header {
 	border-bottom-right-radius: 25%;*/
 }
 
-
 .pagina-de-pornire h1 {
-	font-size: 2.7rem;
+	font-size: 80px;
 	position: absolute;
+	font-weight: bolder;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -40%);
 }
 
-#ce-este-js {
-	background-color: purple;
+#ce-este-cpp {
 	height: 100%;
 	color: white;
 	border-bottom-right-radius: 20%;
 }
 
-#ce-este-js h1,
+#ce-este-cpp h1,
 #istoria-limbajului h1,
-#es5-es6 h1 {
+#clase h1 {
 	width: 100%;
 	padding: 3rem 0;
 	text-align: center;
 	color: white;
 }
 
-#ce-este-js p,
+#ce-este-cpp p,
 #istoria-limbajului p,
-#es5-es6 p {
+#clase p {
 	padding: 0 1.5rem 3rem;
 	text-align: justify;
 	font-size: 1.1rem;
@@ -163,8 +163,10 @@ header {
 	overflow: hidden;
 }
 
-.ce-este-js {
+.ce-este-cpp {
 	position: relative;
+	background-color: #111;
+	border-bottom-right-radius: 20%;
 }
 
 .text-animation {
@@ -172,11 +174,11 @@ header {
 }
 
 #istoria-limbajului {
-	background-color: red;
+	background-color: #201e2f;
 }
 
 #istoria-limbajului p {
-	color: red;
+	color: white;
 	transition: 2s;
 }
 
@@ -185,22 +187,21 @@ header {
 	max-height: 240px;
 	padding: 0 5rem 3rem;
 }
-
 .gif {
 	display: none;
+	width: 100%;
 	transition: 2s;
 }
 
 .gif-animation {
 	display: inherit;
 }
-
-#es5-es6 {
-	background-color: #8d1919;
+#clase {
+	background-color: #201e2f;
 	/*border-top-right-radius: 20%;*/
 }
 
-#es5-es6 ul {
+#clase ul {
 	text-align: justify;
 	margin: 0 5rem;
 	color: white;
@@ -302,7 +303,7 @@ footer .echipa {
 	header {
 		position: absolute;
 		top: 0;
-		background-color: #292E49;
+		background-color: #111;
 	}
 
 	.closeMenu {
@@ -370,6 +371,10 @@ footer .creator{
 
 .menu-links {
 	white-space: nowrap;
+}
+
+p#schema {
+	color: #201e2f;
 }
 
 #saysomething {
