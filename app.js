@@ -19,11 +19,12 @@ window.addEventListener("scroll", () => {
 	let topArrow = document.getElementById('top-arrow');
 	gif.classList.add('gif-animation');
 	text.classList.add('text-animation');
+	header.style.transition = "0.29s";
 
 	if(window.scrollY < 150) {
-		header.style.backgroundColor = '#292E49';
+		header.style.backgroundColor = "rgba(255,255,255,0)";
 	} else {
-		header.style.backgroundColor = "#111";
+		header.style.backgroundColor = '#111';
 	}
 
 	if(window.scrollY < 260) {
