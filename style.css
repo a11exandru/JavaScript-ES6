@@ -35,7 +35,7 @@ pre {
 /*Artificii*/
 
 main {
-	background-color: #111;
+	background-color: #201e2f;
 }
 /*
 body {
@@ -192,7 +192,6 @@ header * {
 }
 .gif {
 	display: none;
-	width: 100%;
 	transition: 2s;
 }
 
