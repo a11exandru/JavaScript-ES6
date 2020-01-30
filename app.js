@@ -40,3 +40,10 @@ window.addEventListener("scroll", () => {
 		document.getElementById("schema").style.color = "white";
 	}
 });
+
+document.getElementById("submit").addEventListener("click", () => {
+	let allProgram = document.getElementById("inserare").value;
+	let cout = document.getElementById("cout");
+	let matches = allProgram.match('cout<<"([^"]+)";');
+	cout.value = matches[1];
+})
