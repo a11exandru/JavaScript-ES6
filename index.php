@@ -27,13 +27,13 @@
 			<div id= "ce-este-cpp">
 				<h1>Ce este C++?</h1>
 				<div class = "definitie">
-					<p id="animatie-definitie" class = "ce-este-js" style="position: relative"> <strong>C++</strong> este un limbaj de programare general, compilat. Este un  limbaj multi-paradigmă, cu verificarea statică a tipului variabilelor ce suportă programare procedurală, abstractizare a datelor, programare orientată pe obiecte. </p>
+					<p id="animatie-definitie" class = "ce-este-js" style="position: relative"><strong>C++</strong> este un limbaj de programare general, compilat. Este un  limbaj multi-paradigmă, cu verificarea statică a tipului variabilelor ce suportă programare procedurală, abstractizare a datelor, programare orientată pe obiecte. </p>
 				</div>
 			</div>
 
 			<div id = "istoria-limbajului">
 				<h1 class = "definitie">Istorie</h1>
-				<p id = "schema">Stroustrup a început să lucreze la C cu clase în 1979. Ideea crearii unui nou limbaj a venit din experienta de programare pentru pregatirea tezei sale de doctorat. Stroustrup a descoperit ca Simula (program din anii '60) avea facilitati foarte utile pentru proiecte mari, însa era prea lent, în timp ce BCPL era rapid, însa nu era de nivel înalt si era nepotrivit pentru proiecte mari. Cand a început să lucreze pentru Bell Labs, avea sarcina de a analiza nucleul UNIX referitor la calcul distribuit. Amintindu-si de experiența sa din perioada lucrsrii de doctorat, Stroustrup a început ss îmbunstățească C cu facilități asemănătoare Simula. C a fost ales deoarece era rapid și portabil. La început facilitățile adaugate C-ului au fost clase, clase derivate, verificare a tipului, inline și argumente cu valori implicite.</p>
+				<p id = "schema">Bjarne Stroustrup a început să lucreze la C cu clase în 1979. Ideea crearii unui nou limbaj a venit din experienta de programare pentru pregatirea tezei sale de doctorat. Stroustrup a descoperit ca Simula (program din anii '60) avea facilitati foarte utile pentru proiecte mari, însa era prea lent, în timp ce BCPL era rapid, însa nu era de nivel înalt si era nepotrivit pentru proiecte mari. Cand a început să lucreze pentru Bell Labs, avea sarcina de a analiza nucleul UNIX referitor la calcul distribuit. Amintindu-si de experiența sa din perioada lucrsrii de doctorat, Stroustrup a început sa îmbunatatească C cu facilitati asemanatoare Simula. C a fost ales deoarece era rapid si portabil. La început facilitatile adaugate C-ului au fost clase, clase derivate, verificare a tipului, inline si argumente cu valori implicite.</p>
 				<img src="image/cpplogo.gif" id = "gif" class = "gif">
 			</div>
 
@@ -57,7 +57,7 @@
 					<li>+ orice altceva iti doresti;</li>
 
 				</ul>
-				<p>Iata si cateva exemple de porgamem in c++.</p>
+				<p>Iata si cateva exemple de porgrame in c++.</p>
 				<pre style="text-align: left;">
 #include iostream
 	using namespace std;
@@ -66,7 +66,7 @@
 		return 0;
 	}
 };</pre>
-				 <p class = "margin-top">Acest program afiseaza textul "Hello World"</p> 
+				 <p class = "margin-top">Acest program afiseaza textul "Hello World"</p>
 				<pre style="text-align: left;">
 #include iostream
 using namespace std;
