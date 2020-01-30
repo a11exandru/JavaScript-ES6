@@ -16,10 +16,16 @@
     </head>
     <!-- <body style="background-image: url('image/background.jpeg')"> -->
     <body style="background-color: purple">
-        <?php
-            include_once("parts/header.php");
-            include_once("parts/menuSay.php");
-        ?>
+        <header id = "header">
+            <span onclick="showMenu()" class="fa fa-bars showMenu"></span>
+            <div class="titlu-header">C++</div>
+        </header>
+        <div class = "menu" id = "menu">
+            <div class="menu-links">
+                <a href="javascript:void(0)" onclick="closeMenu()" class="closeMenu">&times;</a>
+                <a href="/", onclick="closeMenu()">Pagina de pornire</a>
+            </div>
+        </div>
         <div class="bigdiv">
             <h1 style="margin-bottom:25px">Scrie ceva in C++</h1>
             <div class="explanation">

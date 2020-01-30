@@ -19,8 +19,20 @@
 	<!-- Aici incepe magia -->
 	<body>
 		<main>
-			<?php require_once("parts/header.php"); ?>
-			<?php require_once("parts/menu.php"); ?>
+			<header id = "header">
+				<span onclick="showMenu()" class="fa fa-bars showMenu"></span>
+				<div class="titlu-header">C++</div>
+			</header>
+			<div class = "menu" id = "menu">
+				<div class="menu-links">
+					<a href="javascript:void(0)" onclick="closeMenu()" class="closeMenu">&times;</a>
+					<a href="#home", onclick="closeMenu()">Pagina de pornire</a>
+					<a href="#ce-este-cpp", onclick="closeMenu()">Ce este C++?</a>
+					<a href="#istoria-limbajului", onclick="closeMenu()">Istoria limbajului</a>
+					<a href="#versus", onclick="closeMenu()">ES5 vs ES6</a>
+					<a href="saysomething" id="saysomething">Say something</a>
+				</div>
+			</div>
 			<div class = "pagina-de-pornire" id="home">
 				<h1>C++</h1>
 			</div>
